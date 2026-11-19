@@ -1,0 +1,17 @@
+{
+  "name": "software-design-skill",
+  "owner": {
+    "name": "Aldabergenov1",
+    "url": "https://github.com/Aldabergenov1"
+  },
+  "metadata": {
+    "description": "Ousterhout's software design principles as a Claude Code skill for ML, LLM and agent code."
+  },
+  "plugins": [
+    {
+      "name": "software-design",
+      "source": "./",
+      "description": "Design and review code by John Ousterhout's \"A Philosophy of Software Design\", tuned for ML, LLM and coding-agent code."
+    }
+  ]
+}

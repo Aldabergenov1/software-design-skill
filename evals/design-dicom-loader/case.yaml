@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: design-dicom-loader
+expected_outcome: |
+  At least two interface alternatives are compared; the common case is simple, with defaults; geometry (spacing, orientation, what was done to the image) is exposed in the result, not hidden; missing PixelSpacing is not masked with an invented value; docstrings give shapes, dtypes and units.

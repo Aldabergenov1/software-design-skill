@@ -1,0 +1,13 @@
+{
+  "name": "software-design",
+  "version": "1.0.0",
+  "description": "Design and review code by John Ousterhout's \"A Philosophy of Software Design\", tuned for ML, LLM and coding-agent code.",
+  "author": {
+    "name": "Aldabergenov1",
+    "url": "https://github.com/Aldabergenov1"
+  },
+  "homepage": "https://github.com/Aldabergenov1/software-design-skill",
+  "repository": "https://github.com/Aldabergenov1/software-design-skill",
+  "license": "MIT",
+  "keywords": ["software-design", "ousterhout", "code-review", "architecture", "machine-learning", "pytorch", "llm", "agents"]
+}

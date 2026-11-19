@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: review-rag-pipeline
+expected_outcome: |
+  The review finds that the embedding model name and the e5 prefixes (passage:/query:) are duplicated between index building and retrieval; that except Exception: return [] silently yields an empty context; that RetrieverService is a pass-through; that 512 and max_len=3000 are characters, not tokens, and the names don't say so. Findings are tied to consequences, and build_prompt is not split just for length.

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: add-vendor-fps
+expected_outcome: |
+  Frame rate becomes a property of the clip or source (from metadata or a spec), not a branch on the vendor name; the second hardcoded 30 fps in TemporalHead is found and fixed; clip length in frames is derived from fps.
+context:
+  scaffold_script: place-files.sh
